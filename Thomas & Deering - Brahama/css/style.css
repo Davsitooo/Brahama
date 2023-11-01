@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: red;
+    border: 3px ridge white ;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    & a{
+        font-size: 1.4rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+main{
+    background: url(/img/fondo.jpg) no-repeat;
+    height: 40rem;
+    color: white;
+
+    .titulo{
+        font-size: 2.5rem;
+        padding: 5%;
+        text-decoration: underline rgb(202, 124, 124) ;
+    }
+    & p{
+        font-size: 1.3rem;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 60%;
+        background-color: rgba(226, 123, 123, 0.295);
+        padding: 2%;
+        
+    }
+    .info3{
+        margin-left: 65%;
+        margin-right: 5%;
+        margin-top: -18%;
+        text-align: right;
+        padding: 2%;
+    }
+    .info4{
+        margin-left: 65%;
+        margin-right: 5%;
+        margin-top: 6%;
+        text-align: left;
+        padding: 2%;  
+    }
+}
+.stock{
+    & h2{
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 2%;
+        text-decoration: underline rgb(214, 131, 131);
+    }
+}
+
+.compra{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    & div{
+        border: 3px solid rgb(8, 8, 8);
+        text-align: center;
+        padding-bottom: 0.5rem;
+        & img{
+            height: 15rem;
+        }
+        & p{
+            font-size: 1.3rem;
+        }
+        & a{
+            text-decoration: none;
+            color: black;
+            background-color: rgb(233, 75, 75);
+            font-size: 1.5rem;
+        }
+        
+    }
+    
+}
+.promos{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    & div{
+        border: 3px solid rgb(0, 0, 0);
+        text-align: center;
+        padding-bottom: 0.5rem;
+        & img{
+            height: 15rem;
+        }
+        & p{
+            font-size: 1.3rem;
+        }
+        & a{
+            text-decoration: none;
+            color: black;
+            background-color: rgb(233, 75, 75);
+            font-size: 1.5rem;
+            margin: 5px;
+        }
+    }
+}
+
+.form-content{
+    background-color: rgb(228, 82, 82) ;
+    margin-left: 29%;
+    width: 30rem;
+    height: 25rem;
+    border: 3px solid black;
+
+    & form{
+        display: grid;
+        justify-content: center;
+        margin: 5%;
+    }
+    & h2{
+        text-align: center;
+    }
+
+    & label{
+        text-align: center;
+    }
+    & input{
+        height: 1.5rem;
+    }
+
+    #coments{
+        height: 5rem;
+    }
+
+    .btn{
+        margin-top: 15%;
+        height: 2rem;
+    }
+}
+
+footer{
+    background-color: rgb(240, 57, 57);
+    margin-top: 3rem;
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.3rem;
+    
+    .icons{
+        padding: 2rem;
+        
+        & a{
+            margin: 5rem;
+        }
+        
+    }
+}
+
+
